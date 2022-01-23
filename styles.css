@@ -8,12 +8,22 @@ body{
     margin: 0px auto;
 }
 
+section{
+    padding: 100px 0;
+}
+
 header{
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
 }
-
+footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 40px 0px;
+    text-align: center;
+}
 .header-links{
     list-style: none;
 }
@@ -52,10 +62,12 @@ header{
 .header-hero button{
     color: #E5E7EB;
     width:fit-content;
-    padding: 10px 30px;
+    padding: 7px 30px;
     background-color: #3882F6;
     border-radius: 8px;
     border-width: 0px;
+    font-weight: 700;
+    margin-top: 10px;
 }
 
 .header-hero div{
@@ -73,5 +85,83 @@ header{
 }
 
 .section-header{
-
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+.image-list{
+    display: flex;
+    justify-content: space-around;
+    width:90%;
+    margin: 0 auto;
+}
+
+.image-placeholder{
+    width: 80%;
+    margin: 0px auto 10px;
+    aspect-ratio: 1;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+.image-caption{
+    width: 20%;
+    text-align: center;
+}
+
+.first-section{
+    padding-top: 0;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    font-size: 36px;
+}
+
+.quote{
+    color: #1F2937;
+    font-weight: 400;
+    width:80%;
+    margin: 0 auto;
+}
+
+.quote-person{
+    color: #1F2937;
+    width:80%;
+    margin: 0 auto;
+    font-weight: 700;
+    text-align: right;
+}
+
+.signup-frame{
+    background-color: #3882F6;
+    padding: 50px 100px;
+    color: #FFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-frame h3,p{
+    margin:0;
+}
+.signup-frame p{
+    margin:0;
+    color: #E5E7EB;
+}
+
+.signup-frame button{
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 5px 20px;
+    height:fit-content;
+}
+
+
